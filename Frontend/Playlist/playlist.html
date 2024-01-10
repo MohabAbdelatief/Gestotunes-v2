@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GestoTunes</title>
+    <link rel="stylesheet" href="../Home/home.css">
+    <link rel="stylesheet" href="../Playlist-Item/item.css">
+    <link rel="stylesheet" href="../Song-item/song-item.css">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="navBar">
+            <div class="navBarItem">
+                <img src="../../Backend/Database/icons/home.png" alt="Home" />
+                <h1 id="home">Home</h1>
+            </div>
+            <div class="navBarItem">
+                <img src="../../Backend/Database/icons/library.png" alt="Library" />
+                <h1 id="Library">Library</h1>
+            </div>
+        </div>
+        <div class="sideBar">
+            <div class="sideBarHeader">
+                <div class="name">
+                    <img id="library-logo" src="../../Backend/Database/icons/music.png" alt="" />
+                    <h3>Your Playlists</h3>
+                </div>
+                <img id="add-playlist" src="../../Backend/Database/icons/plus.png" alt="Add Playlist" />
+            </div>
+
+        </div>
+        <div class="mainContent">
+            <div class="logout">
+                <button id='Logout'>Logout</button>
+            </div>
+            <header>
+                <h1>Liked Songs</h1>
+            </header>
+            <div class="all-music">
+                <div class="text">
+                    <p>Available Songs</p>
+                </div>
+                <div class="all-music-songs">
+
+                </div>
+            </div>
+        </div>
+        <div class="audioPlayer">
+            <div class="albumArt">
+                <img id="song-image-mp" src="../../Backend/Database/Images/jvke-space.png" alt="Album Cover" />
+            </div>
+            <div class="songDetails">
+                <h3 id="song-name-mp">this is what space feels like</h3>
+                <p id="artist-name-mp">JVKE</p>
+            </div>
+            <div class="controls">
+                <button id="previous-song-Button">
+                    <img src="../../Backend/Database/icons/previous.png" alt="Previous song" />
+                </button>
+                <button id="play-pause-Button">
+                    <img id="play-btn-img" src="../../Backend/Database/icons/play.png" alt="Play or pause" />
+                </button>
+                <button id="next-song-Button">
+                    <img src="../../Backend/Database/icons/next.png" alt="Next song" />
+                </button>
+            </div>
+            <div class="volumeControl">
+                <img id="volume-img" src="../../Backend/Database/icons/high-volume.png" alt="Volume" />
+                <input id="volume" type="range" min="0" max="100" />
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="../Components/audioPlayer.js"></script>
+<script src="../Components/home.js"></script>
+<script src="../Components/sideBar.js"></script>
+<script src="../Components/navBar.js"></script>
+<script src="../Components/customPlaylist.js"></script>
+
+</html>

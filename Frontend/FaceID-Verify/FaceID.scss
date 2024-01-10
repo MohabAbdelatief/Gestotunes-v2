@@ -1,0 +1,89 @@
+$Gradient: linear-gradient(to bottom, rgb(0, 0, 122) 20%, black 80%);
+
+body {
+    background: $Gradient;
+    height: 100vh;
+    margin: 0; // Ensure there's no default margin
+    display: flex;
+    justify-content: center;
+    align-items: center; // These properties will center the container
+    animation: fadeIn 1.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'system-ui';
+
+
+
+    .face-id-Login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        h2 {
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0.75;
+    }
+
+    40% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 0.25;
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.face-id-Login img {
+    width: 100px;
+    height: 100px;
+    animation: pulse 1s infinite;
+}

@@ -1,0 +1,35 @@
+.playlist-item {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px;
+  transition: 0.5s;
+}
+.playlist-item #playlist-photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+}
+.playlist-item #delete-btn {
+  border-radius: 10px;
+  padding: 10px;
+  transition: 1s;
+  width: 25px;
+  height: 25px;
+}
+.playlist-item #delete-btn:hover {
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(163, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.playlist-item:hover {
+  background-color: rgba(77, 76, 76, 0.8);
+  cursor: pointer;
+}/*# sourceMappingURL=item.css.map */
