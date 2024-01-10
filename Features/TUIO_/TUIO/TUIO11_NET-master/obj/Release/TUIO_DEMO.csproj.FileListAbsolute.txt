@@ -1,0 +1,10 @@
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\bin\Release\TuioDemo.exe.config
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\bin\Release\TuioDemo.exe
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\bin\Release\websocket-sharp.dll
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\bin\Release\websocket-sharp.xml
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\obj\Release\TUIO_DEMO.csproj.AssemblyReference.cache
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\obj\Release\TuioDemo.resources
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\obj\Release\TUIO_DEMO.csproj.GenerateResource.cache
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\obj\Release\TUIO_DEMO.csproj.CoreCompileInputs.cache
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\obj\Release\TUIO_DEMO.csproj.CopyComplete
+C:\Users\hobaz\Desktop\GestoTunes1.0f\Features\TUIO_\TUIO\TUIO11_NET-master\obj\Release\TuioDemo.exe
