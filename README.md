@@ -1,4 +1,11 @@
 # Gestotunes
+
+![WhatsApp Image 2025-02-20 at 14 41 58](https://github.com/user-attachments/assets/7edee694-06a4-44ff-bb0b-54d3e89800d3)
+
+<img width="1800" alt="Screenshot 2025-02-20 at 14 44 59" src="https://github.com/user-attachments/assets/ee058971-a9e1-4ad2-b683-e28c69b0f6b4" />
+
+
+
 Advanced Interactive Music Player, a next-generation application that revolutionizes how you interact with your music. This player is designed with cutting-edge technology to offer an intuitive and immersive music experience.
 Here's what makes our music player stand out:
 
